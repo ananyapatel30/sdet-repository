@@ -50,3 +50,6 @@ bash
 Copy
 Edit
 python main.py
+
+<img width="1524" height="645" alt="image" src="https://github.com/user-attachments/assets/67817952-9a87-41c1-85d0-b79e9723d124" />
+Mongodb compass
