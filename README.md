@@ -11,23 +11,16 @@
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
-
-```bash
 git clone https://github.com/your-username/product_review_etl.git
+
 cd product_review_etl
 
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 3. Set your API Key
 Edit config/settings.py:
 
-python
-Copy
-Edit
 RAPIDAPI_KEY = "your_rapidapi_key_here"
 You can get your API key from RapidAPI - Real-Time Amazon Data API
 
@@ -36,9 +29,6 @@ You can get your API key from RapidAPI - Real-Time Amazon Data API
 🛠 Configuration
 In config/settings.py, configure the following:
 
-python
-Copy
-Edit
 ASIN = "B0CMZFCQ6D"          # Product ASIN to extract reviews for
 PAGES = 3                    # Number of pages to extract
 MONGO_URI = "mongodb://localhost:27017/"
